@@ -1,0 +1,309 @@
+:root {
+    --primary-color: #ea1d24;
+    --bs-text-color: #444444;
+    --bs-white-color: #ffffff;
+    --bs-dark-color: #000000;
+    --primary-dark-color: #841014;
+    --text-dark: #191919;
+    --text-medium: #383838;
+    --text-light: #ffffff;
+    --text-light-2: #ececec;
+    --background-light: #ffffff;
+    --background-grey: #f5f5f5;
+    --background-dark-grey: #D9D9D9;
+    --bs-radius: 20px;
+    --heading-font: 'Oswald', sans-serif;
+}
+
+.service-column {
+    border: 1px solid var(--text-light-2);
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service-column p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: var(--text-light-2);
+}
+
+/* New-forklifts */
+.popular-card {
+    border: 2px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.new-forklift-title a,
+.popular-text a {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-dark);
+    font-family: 'Oswald', sans-serif;
+}
+
+.new-image {
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 10px;
+    background-color: var(--background-light);
+    position: relative;
+    top: -60px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--primary-color);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 20px;
+}
+
+.swiper-button-prev {
+    left: -8px;
+    transform: translateY(-50%);
+}
+
+.swiper-button-next {
+    right: -8px;
+    transform: translateY(-50%);
+}
+
+.swiper-slide {
+    padding-bottom: 0;
+}
+
+/* New-forklift */
+
+.new-forklift-card {
+    margin-top: 170px;
+    border: 2px solid var(--primary-color);
+    padding: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.new-forklift-image {
+    width: 250px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    top: -140px;
+    margin-bottom: -100px;
+    object-fit: contain;
+    border: 2px solid var(--primary-color);
+}
+
+.new-forklift-btn {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.new-forklift-title,
+.new-forklift-para {
+    padding-inline: 20PX;
+}
+
+.new-forklift-btn a {
+    color: var(--text-light);
+    font-size: 18px;
+}
+
+#advice-cta {
+    background-color: var(--primary-color);
+}
+
+.btn-getstarted.white {
+    border: 1px solid var(--text-light);
+    background-color: transparent;
+}
+
+.btn-getstarted-line.white {
+    border: 1px solid var(--text-light);
+}
+
+.btn-getstarted.white:hover {
+    border: 1px solid var(--text-light);
+    color: var(--primary-color);
+    background-color: var(--background-light);
+}
+
+.btn-getstarted.white:hover span {
+    color: var(--primary-color);
+}
+
+.btn-getstarted-line.white:hover {
+    border: 1px solid var(--primary-color);
+}
+
+#advice-cta-image {
+    background: linear-gradient(#00000080, #00000080), url(../images/blog-3.webp) center no-repeat;
+}
+
+.listing-img {
+    border-radius: 10px;
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+.card-list .list_item li {
+    list-style-type: square;
+    margin-bottom: 5px;
+}
+
+.card-list .list_item li::marker {
+    color: var(--primary-color);
+}
+
+.part-listing-card {
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.part-listing-card img {
+    max-width: 170px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.part-listing-card h4,
+.part-listing-card p {
+    padding-inline: 20px;
+}
+
+.dark_btn_2,
+.light_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.dark_btn_2 {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+.dark_btn_2:hover {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+.dark_btn_2 i {
+    color: var(--text-light);
+}
+
+.light_btn i {
+    color: var(--primary-color);
+}
+
+.light_btn {
+    color: var(--primary-color);
+}
+
+.light_btn:hover {
+    color: var(--primary-color);
+}
+
+.part-listing-card h4 a {
+    color: var(--text-dark);
+    font-family: var(--heading-font);
+}
+
+.part-list {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--background-grey);
+    padding: 15px;
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.part-list li {
+    list-style: none;
+}
+
+.part-list li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: var(--background-dark-grey);
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.contct-card {
+    padding: 40px 20px 20px 20px;
+    background: linear-gradient(#000000a3, #000000a3), url(../images/contact-image.png) center right no-repeat;
+    text-align: center;
+}
+
+.contct-card h5,
+.contct-card p {
+    color: var(--text-light);
+}
+
+.contct-card .cta_btn {
+    row-gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detail-right-card {
+    background-color: var(--background-grey);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.detail-right-card-img {
+    text-align: center;
+}
+
+.detail-right-card-img img {
+    max-width: 400px;
+}
+
+/* main-blog-page */
+.main-blog-page .blog-card {
+    background-color: var(--background-grey);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.main-blog-page .blog-card .blog-content {
+    padding: 15px;
+}
+
+.sidebar-card img {
+    max-width: 160px;
+    border-radius: 10px;
+}

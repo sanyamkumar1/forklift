@@ -1,0 +1,107 @@
+@media (max-width:991.98px) {
+    .new-forklift-image {
+        top: -80px;
+        margin-bottom: -70px;
+        width: 80%;
+    }
+}
+
+@media (max-width:767.98px) {
+    header .container-fluid {
+        padding-inline: 15px;
+    }
+
+    header .btn-getstarted,
+    header .btn-getstarted-line {
+        padding: 8px 21px;
+    }
+
+    .sec-heading-white,
+    .sec-heading {
+        font-size: 34px;
+    }
+
+    .sec-heading-title-white,
+    .sec-heading-title {
+        font-size: 18px;
+    }
+
+    .section-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .hero-section {
+        margin-bottom: 10px;
+    }
+
+    #section-stats {
+        padding: 50px 0;
+    }
+
+    .hero-bg-img {
+        height: 600px;
+    }
+
+    .hero-overlay {
+        padding-top: 0;
+    }
+
+    .new-forklift-image {
+        top: -110px;
+        width: 250px;
+    }
+}
+
+@media (max-width:575.98px) {
+
+    .btn-getstarted,
+    .btn-getstarted-line {
+        padding: 8px 12px;
+    }
+
+    .header .logo img {
+        max-width: 150px;
+    }
+
+    header .btn-getstarted-line span,
+    header .btn-getstarted span {
+        display: none;
+    }
+
+    header .btn-getstarted-line,
+    header .btn-getstarted {
+        padding: 8px;
+    }
+
+    header .btn-getstarted-line i,
+    header .btn-getstarted i {
+        margin: 0;
+    }
+
+    .hero-bg-img {
+        height: 500px;
+    }
+
+    .hero-overlay {
+        padding-top: 0;
+    }
+
+    .social-card {
+        max-width: 96%;
+    }
+
+}
+
+@media (max-width:350px) {
+
+    .btn-getstarted i,
+    .btn-getstarted-line i {
+        display: none;
+    }
+
+    header .btn-getstarted i,
+    header .btn-getstarted-line i {
+        display: block;
+    }
+}
